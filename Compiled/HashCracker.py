@@ -2,7 +2,8 @@ import hashlib
 import binascii
 from pwn import log
 
-# edit this
+# add emily's 16 byte salt and hash here
+
 salt  = binascii.unhexlify('▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒')  # 16 bytes Salt
 key   = '▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒' # Hash
 dklen = 50
